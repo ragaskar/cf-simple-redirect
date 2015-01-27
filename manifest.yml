@@ -1,0 +1,8 @@
+---
+applications:
+  - name: my-redirect
+    memory: 64M
+    buildpack: https://github.com/cloudfoundry-community/staticfile-buildpack.git
+env:
+  REDIRECT_URI: google.com
+  
